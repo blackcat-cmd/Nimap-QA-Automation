@@ -37,16 +37,16 @@ public class LoginTest {
     public Object[][] loginData() {
         return new Object[][] {
                 // Valid Login
-                { "harshalpatilgov@gmail.com", "Harshal@512", true },
+                { "VALID EMAIL ID", "VALID PASSWORD", true },
 
                 // Invalid Username
-                { "harshal@gmail.com", "Harshal@512", false },
+                { "INVALID ID", "VALID PASSWORD", false },
 
                 // Invalid Password
-                { "harshalpatilgov@gmail.com", "Password123", false },
+                { "VALID PASSWORD ", "INVALID PASSWORD", false },
 
                 // Invalid Username + Password
-                { "123@gmail.com", "Password123", false }
+                { "INVALID ID ", "INVALID PASSWORD", false }
         };
     }
 
