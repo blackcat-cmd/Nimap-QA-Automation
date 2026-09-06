@@ -24,7 +24,7 @@ public class AddCustomerTest {
 
         DriverFactory.driver.get("https://test.fieldforceconnect.com/customers");
 
-        loginPage.login("harshalpatilgov@gmail.com", "Harshal@512");
+        loginPage.login("YOUR LOGIN_ID", "YOUR PASSWORD");
 
         Assert.assertTrue(
                 loginPage.isDashboardDisplayed(),
