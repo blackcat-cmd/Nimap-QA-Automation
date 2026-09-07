@@ -21,13 +21,13 @@ Nimap-QA-Automation
             ├── pages
             │   ├── LoginPage.java
             │   ├── DashboardPage.java
-            │   ├── AttendancePage.java
+            │   ├── UpdateTimeSheetPage.java
             │   └── AddCustomerPage.java
             │
             ├── tests
             │   ├── BrowserTest.java
             │   ├── LoginTest.java
-            │   ├── PunchInTest.java
+            │   ├── UpdateTimeSheetTest.java
             │   └── AddCustomerTest.java
             │
             └── utils
@@ -57,9 +57,10 @@ Login Automation (LoginTest.java)
 
 Authenticates user credentials and verifies dashboard visibility.
 
-Attendance Management (PunchInTest.java)
+Attendance Management (UpdateTimeSheetTest.java)
 
 Automates daily punch-in actions and status verifications.
+Verify the Toast/Popup message after the PunchIn
 
 Customer Management (AddCustomerTest.java)
 
